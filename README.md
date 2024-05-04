@@ -1,5 +1,3 @@
-# HTTP 1.1 vs HTTP 2.0
-
 ## What is HTTP
 - The Hypertext Transfer Protocol (HTTP) is designed to enable communications between clients and servers. 
 - HTTP works as a request-response protocol between a client and server.
@@ -15,6 +13,8 @@
 - HTTP/2–2015-Standard
 - HTTP/3–2022-Standard
 
+# HTTP 1.1 vs HTTP 2.0
+
 ## 1. HTTP 1.1
 - To address the limitations of HTTP 1.0, the next version, HTTP 1.1, was introduced in 1999. HTTP 1.1 introduced several key features that improved its performance and security.
 - HTTP 1.1 also introduced several security enhancements, including support for SSL/TLS encryption and the use of authentication and access control mechanisms.
@@ -27,7 +27,11 @@
 
 - HTTP 1.1 is a sequential protocol. So, we can send a single request at a time. HTTP 2.0, in turn, allows to send requests and receive responses asynchronously. In this way, we can do multiple requests at the same time using a single connection
 
+## Multiplexing Difference (Image View)
+
 ![Multiplexing Image View](images/http1%20vs%20http2.png)
+
+## Response Time Difference (Image View)
 
 ![Response_Time HTTP 1.1 vs HTTP 2.0 Image View](images/http1%20vs%20http2%20responce%20time.png)
 
