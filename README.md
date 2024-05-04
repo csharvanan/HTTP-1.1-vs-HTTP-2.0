@@ -6,7 +6,7 @@
 - HTTP was originally proposed in 1989 by Tim Berners-Lee.
 
 ### Example:
-    - A client (browser) sends an HTTP request to the server; then the server returns a response to the client.
+- A client (browser) sends an HTTP request to the server; then the server returns a response to the client.
 
 ## Versions Of HTTP
 - HTTP/0.9–1991-Obsolete
